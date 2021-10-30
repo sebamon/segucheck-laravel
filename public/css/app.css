@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap);
+body {
+  font-family: "Archivo", "sans-serif";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", "sans-serif";
+}
+
+.btn:focus, .btn:active, .btn:active:focus, .btn.active:focus {
+  outline: none;
+}
+.btn-secondary {
+  background-color: #fff;
+  border-color: #ccc;
+  color: #17141f;
+}
+.btn-secondary:hover {
+  background-color: #ededed;
+  border-color: #adb5bd;
+  color: #17141f;
+}
+.btn-secondary.disabled {
+  background-color: #fff;
+  border-color: tint-color(#ccc, 5%);
+  color: tint-color(#17141f, 5%);
+}
+.btn-warning {
+  color: #fff;
+}
+.btn-primary:focus {
+  box-shadow: 0 0 5px tint-color(#593196, 10%);
+}
+.btn-secondary:focus {
+  box-shadow: 0 0 5px #cbc8d0;
+}
+.btn-success:focus {
+  box-shadow: 0 0 5px tint-color(#13b955, 10%);
+}
+.btn-info:focus {
+  box-shadow: 0 0 5px tint-color(#009cdc, 10%);
+}
+.btn-warning:focus {
+  box-shadow: 0 0 5px tint-color(#FF835D, 10%);
+}
+.btn-danger:focus {
+  box-shadow: 0 0 5px tint-color(#fc3939, 10%);
+}
+.btn.disabled:focus {
+  box-shadow: none;
+}
+
+.table .thead-dark th {
+  background-color: #a991d4;
+  border-color: rgba(0, 0, 0, 0.05);
+}
+
+.form-control:focus {
+  box-shadow: 0 0 5px rgba(100, 65, 164, 0.4);
+}
+
+.nav-tabs .nav-link,
+.nav-tabs .nav-link.active {
+  border-width: 0 0 1px;
+}
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active:hover,
+.nav-tabs .nav-link.active:focus {
+  border-bottom: 1px solid #593196;
+}
+.nav-tabs .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.breadcrumb-item.active {
+  color: #444;
+}
+
+.badge.bg-light {
+  color: #17141f;
+}
+
+.progress {
+  height: 8px;
+}
+
+.list-group-item {
+  color: rgba(255, 255, 255, 0.8);
+}
+.list-group-item.active, .list-group-item:hover, .list-group-item:focus {
+  color: #fff;
+}
+.list-group-item.active {
+  font-weight: 700;
+}
+.list-group-item.active:hover {
+  background-color: #2e283e;
+}
+.list-group-item.disabled:hover {
+  color: #5c507c;
+}
